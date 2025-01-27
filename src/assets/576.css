@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+    .header__wrapper .header__btn-add {
+        position: fixed;
+        bottom: 16px;
+        padding: 10px 190px;
+        z-index: 333;
+    }
+
+    .modal .modal__content {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .form {
+        height: 100%;
+    }
+
+    .form .form__btn-add {
+        align-self: auto;
+        justify-content: center;
+    }
+
+    .form .form__label:nth-last-child(-n + 2) {
+        margin-bottom: auto;
+    }
+
+    .form__wrapper-btns .form__btn-save {
+        justify-content: center;
+        flex-basis: 100%;
+    }
+}
